@@ -19,6 +19,16 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "context/NFTContext.jsx",
+    "utils/getTopCreators.js",
+    "components/NFTCard.js",
+    "components/SearchBar.jsx",
+    "pages/index.jsx",
+    "components/CreatorCard.jsx"
+, "pages/index.jsx", "pages/create-nft.jsx", "pages/listed-nfts.jsx", "pages/my-nfts.jsx", "pages/nft-details.jsx", "pages/resell-nft.jsx"  ],
   "exclude": ["node_modules"]
 }
